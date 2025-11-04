@@ -7,6 +7,22 @@
     <link rel="icon" href="assets/smile.ico" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      progress {
+        appearance: none;
+        border-radius: 0.5rem;
+        padding-inline-start: 0.5rem;
+      }
+      progress::-webkit-progress-value {
+        background-color: var(--color-secondary);
+        border-radius: 0.5rem 0 0 0.5rem;
+      }
+
+      progress::-webkit-progress-bar {
+        background-color: var(--color-primary-text);
+        border-radius: 0.5rem;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -51,19 +67,6 @@
           painting, traveling, and trying new foods.
         </p>
         <p>
-          <svg
-            width="15"
-            height="15"
-            viewBox="0 0 20 19"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z"
-              fill="black"
-            />
-          </svg>
-
           <strong
             >I'm currently seeking a Summer 2026 Software Engineering
             internship</strong
